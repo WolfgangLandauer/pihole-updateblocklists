@@ -24,7 +24,7 @@ Das Skript führt automatisch `pihole updateGravity`aus und sollte daher in der 
 Ein # vor diese Zeile setzen (Die Nummerierung kann anders sein).
 `#49 4   * * 7   root    PATH="$PATH:/usr/local/bin/" pihole updateGravity >/var/log/pihole_updateGravity.log || cat /var/log/pihole_updateGravity.log`
 
-**Dieser EIntrag sollte nach jedem Pihole Update kontrolloert werden.**
+**Dieser EIntrag sollte nach jedem Pihole Update kontrolliert werden.**
 
 ## Zukünftige Updates
 `sudo pihole-updatelists --update`
