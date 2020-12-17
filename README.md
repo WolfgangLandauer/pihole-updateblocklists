@@ -18,6 +18,7 @@ Gleichzeitg werden dann auch die Inhalte der URls, also die einzelnen DNS-Eintr�
 `sudo bash install.sh`
 
 ## Konfiguration
+### Cron Job deaktivieren
 Das Skript führt automatisch `pihole updateGravity`aus und sollte daher in der Standardkonfiguration dekativiert werden \
 `sudo nano /etc/cron.d/pihole`
 
@@ -25,6 +26,9 @@ Ein # vor diese Zeile setzen (Die Nummerierung kann anders sein).
 `#49 4   * * 7   root    PATH="$PATH:/usr/local/bin/" pihole updateGravity >/var/log/pihole_updateGravity.log || cat /var/log/pihole_updateGravity.log`
 
 **Dieser EIntrag sollte nach jedem Pihole Update kontrolliert werden.**
+
+### Konfiguration nach eigenem Bedarf anpassen
+`sudo nano /etc/pihole-updatelists.conf`
 
 ## Zukünftige Updates
 `sudo pihole-updatelists --update`
