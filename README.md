@@ -9,9 +9,14 @@ Gleichzeitg werden dann auch die Inhalte der URls, also die einzelnen DNS-Eintr√
 * php-cli >=7.0 und ein paar Erweiterungen (`sudo apt-get install php-cli php-sqlite3 php-intl php-curl`)
 * systemd ist optional aber empfohlen
 ## Installation
-git clone https://github.com/jacklul/pihole-updatelists.git Pihole-Updatelists \
-cd Pihole-Updatelists \
-sudo bash install.sh
+`cd ~`
+
+`git clone https://github.com/jacklul/pihole-updatelists.git Pihole-Updatelists` 
+
+`cd Pihole-Updatelists` 
+
+`sudo bash install.sh`
+
 ## Konfiguration
 Das Skript f√ºhrt automatisch `pihole updateGravity`aus und sollte daher in der Standardkonfiguration dekativiert werden \
 `sudo nano /etc/cron.d/pihole` \
