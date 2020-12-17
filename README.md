@@ -23,3 +23,9 @@ Ein # vor diese Zeile setzen (Die Nummerierung kann anders sein). \
 
 ## Zukünftige Updates
 sudo pihole-updatelists --update \
+
+## Deinstallation
+wget -O - https://raw.githubusercontent.com/jacklul/pihole-updatelists/master/install.sh | sudo bash /dev/stdin uninstall \
+
+## Skript manuell starten
+`pihole-updatelists`
