@@ -22,7 +22,7 @@ Ein # vor diese Zeile setzen (Die Nummerierung kann anders sein). \
 **Dieser EIntrag sollte nach jedem Pihole Update kontrolloert werden.**
 
 ## Zukünftige Updates
-sudo pihole-updatelists --update
+`sudo pihole-updatelists --update`
 
 ## Deinstallation
 wget -O - https://raw.githubusercontent.com/jacklul/pihole-updatelists/master/install.sh | sudo bash /dev/stdin uninstall
