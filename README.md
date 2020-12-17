@@ -6,7 +6,7 @@ Man kann die Listen manuell in den Settings pflegen oder eine einzige Liste mit 
 Gleichzeitg werden dann auch die Inhalte der URls, also die einzelnen DNS-Einträge aktualisiert.
 ## Voraussetzungen
 * Pi-hole v5+ installiert
-* php-cli >=7.0 und ein paar Erweiterungen (sudo apt-get install php-cli php-sqlite3 php-intl php-curl)
+* php-cli >=7.0 und ein paar Erweiterungen (`sudo apt-get install php-cli php-sqlite3 php-intl php-curl`)
 * systemd ist optional aber empfohlen
 ## Installation
 git clone https://github.com/jacklul/pihole-updatelists.git Pihole-Updatelists \
