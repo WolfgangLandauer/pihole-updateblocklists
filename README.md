@@ -30,6 +30,24 @@ Ein # vor diese Zeile setzen (Die Nummerierung kann anders sein).
 ### Konfiguration nach eigenem Bedarf anpassen
 `sudo nano /etc/pihole-updatelists.conf`
 
+### Zeitplan anpassen
+Standardmäßig wird das Skript zu einer zufälligen Zeit zwischen 03:00 und 04:00 an Samstagen ausgeführt.\
+Um den Zeitplan zu ändern muss man wie folgt vorgehen:\
+
+`sudo systemctl edit pihole-updatelists.timer`
+
+[Timer]\
+RandomizedDelaySec=5m\
+OnCalendar=\
+OnCalendar=Sat *-*-* 00:00:00\
+
+**ACHTUNG:** \
+Der derzeitige Einrag kann mit 
+
+`/etc/systemd/system/pihole-updatelists.timer` 
+
+angesehen werden, **darf aber NICHT manuell geändert werden!**
+
 ## Zukünftige Updates
 `sudo pihole-updatelists --update`
 
