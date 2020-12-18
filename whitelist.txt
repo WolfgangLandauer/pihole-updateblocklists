@@ -139,9 +139,11 @@ scontent.fgdl5-1.fna.fbcdn.net
 graph.facebook.com
 b-graph.facebook.com
 connect.facebook.com
-cdn.fbsbx.com api.facebook.com
+cdn.fbsbx.com
+api.facebook.com
 edge-mqtt.facebook.com
-mqtt.c10r.facebook.com portal.fb.com
+mqtt.c10r.facebook.com
+portal.fb.com
 star.c10r.facebook.com
 star-mini.c10r.facebook.com
 b-api.facebook.com
