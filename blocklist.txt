@@ -24,7 +24,6 @@ https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
 https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 https://www.technoy.de/lists/Session-Replay.txt
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
