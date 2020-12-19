@@ -158,3 +158,4 @@ hbbtv-track.redbutton.de
 script.ioam.de
 imasdk.googleapis.com
 79423.analytics.edgesuite.net
+spectrum.s3.amazonaws.com
