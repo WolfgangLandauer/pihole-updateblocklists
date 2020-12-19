@@ -151,3 +151,10 @@ fb.me
 bigzipfiles.facebook.com
 l.facebook.com
 feedly.com
+aax-eu.amazon-adsystem.com
+ad.71i.de
+de.ioam.de
+hbbtv-track.redbutton.de
+script.ioam.de
+imasdk.googleapis.com
+79423.analytics.edgesuite.net
