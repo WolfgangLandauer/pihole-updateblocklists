@@ -81,3 +81,5 @@ https://zerodot1.gitlab.io/CoinBlockerLists/list_optional.txt
 https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/cryptomine.txt
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
