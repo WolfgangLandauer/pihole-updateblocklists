@@ -161,3 +161,4 @@ imasdk.googleapis.com
 spectrum.s3.amazonaws.com
 pooltool.io
 onedrive.live.com
+coinmarketcap.com
