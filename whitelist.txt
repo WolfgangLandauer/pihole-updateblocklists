@@ -162,4 +162,4 @@ spectrum.s3.amazonaws.com
 pooltool.io
 onedrive.live.com
 coinmarketcap.com
-app.stex.com
+stex.com
