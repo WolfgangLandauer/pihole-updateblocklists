@@ -164,3 +164,4 @@ onedrive.live.com
 coinmarketcap.com
 stex.com
 bitpanda.com
+app.stex.com
