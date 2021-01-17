@@ -167,3 +167,4 @@ bitpanda.com
 app.stex.com
 microsoft.com
 bitcoin.org
+binance.com
